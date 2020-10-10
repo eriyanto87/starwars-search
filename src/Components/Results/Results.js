@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function Results() {
+export default function Results({ name }) {
   return (
     <div>
-      <h3>Result</h3>
+      <h3>Results:</h3>
+      <p>{name}</p>
     </div>
   );
 }
